@@ -1,0 +1,79 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		background: url(../img/bg.jpg);
+		background-size: 100%;
+	}
+	.fr{
+		float: right;
+	}
+	.fl{
+		float: left;
+	}
+/*	.box-center {
+		width: 970px;
+		height: 600px;
+		border: 1px solid;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform:translate(-50%,50%);  
+		-ms-transform:translate(-50%,50%);
+		transform:translate(-50%,50%);	
+	}*/
+	.title {
+		margin: 110px 0 0 0;
+		font-size: 80px;
+		color: #42E61A;
+		font-weight: bold;
+		text-align: center;
+	}
+	.box{
+		width:500px;
+		height: 400px;
+		background-color: rgba(0, 0, 0, 0.8); 
+		border: 1px solid;
+		margin: 0 auto;
+		text-align:center;
+		border:2px solid #a1a1a1;
+		padding:10px 40px; 
+		border-radius:25px;
+		-moz-border-radius:25px;
+		position: absolute;
+		top: 12%;
+		left: 50%;
+		-webkit-transform:translate(-50%,50%);  
+		-ms-transform:translate(-50%,50%);
+		transform:translate(-50%,50%);	 
+	}
+	
+	.page-box{
+		width: 500px;
+		height: 40%;
+		/*color: #42E61A;*/
+		color:#fcfcfc;
+		font-size: 200px;
+		font-weight: bold;
+		margin:0 auto;
+		text-align: center;
+
+	}
+	.winner{
+		width: 200px;
+		height: 40%;
+		font-size: 40px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	.click-btn{
+		width: 300px;
+		height: 100px;
+		margin: 180px 0 0 100px;
+	}
+	.btn {
+		font-size: 22px;
+		
+	}
